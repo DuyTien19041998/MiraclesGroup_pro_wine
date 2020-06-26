@@ -1,0 +1,45 @@
+.menu {
+  &__common {
+    display: flex;
+    justify-content: space-between;
+    &-item a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+    &-item a:hover {
+      color: yellow;
+    }
+  }
+}
+
+.menu_sub {
+  .container__common {
+    padding: 10px;
+    a {
+      color: black;
+      font-size: 16px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .input_search {
+      width: 200px;
+    }
+  }
+}
+
+.header {
+  background-color: black;
+  .container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .inner {
+      width: 20%;
+    }
+    .header__menu {
+      width: 65%;
+    }
+  }
+}

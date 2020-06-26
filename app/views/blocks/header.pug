@@ -1,0 +1,21 @@
+.menu.menu_sub
+    .container.container__common
+        ul.menu__common
+            -var list = ["- Tài khoản của tôi", "- Trạng thái đơn hàng", "- Danh mục ưu thích", "- Đơn hàng", "- Đăng ký", "- Đăng nhập"]
+                - for( var i = 0 ; i< list.length ; i++ )
+                    li.menu__common-item 
+                        a(href="#")= list[i]
+            .search
+                input.input_search(type="text" placeholder="Tìm kiếm ở đây ")
+                button(type="submit")
+                    i.fa.fa-search
+.header
+    .container.container__header
+        .inner
+            img(src="../images/logo.png" alt="logo")
+        .menu.header__menu
+            ul.menu__common
+                -var list = ["TRANG CHỦ", "RƯỢU VANG ĐỎ", " VANG TRẮNG", " THÔNG TIN", "BLOG", "LIÊN HỆ"]
+                    - for( var i = 0 ; i< list.length ; i++ )
+                        li.menu__common-item 
+                            a(href="#")= list[i]
