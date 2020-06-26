@@ -1,9 +1,41 @@
-// .footer{
-//     &__menu{
-//         display: flex;
-//     }
-//     .footer__contact{
-//         display: flex;
-//         columns: 2;
-//     }
-// }
+$font-color: black;
+.footer{
+  margin-top: 50px;
+    &__menu{
+        display: flex;
+        margin-top:64px;
+        li{
+          padding: 2px;
+        }
+        .fb{
+          margin-top: 45px;
+          padding: 3px;
+        }
+        a{
+          color:$font-color;
+          font-size: 13px;
+          text-decoration: none;
+        }
+    }
+    &__contact{
+        display: flex;
+        columns: 2;
+        .icon_end{
+          font-size:30px;
+          padding:4px;
+        }
+    }
+    i{
+      color:#e7b14f;
+    }
+    hr{
+      width: 100%;
+      height: 4px;
+      color:$font-color;
+      margin: 38 15 0;
+    }
+    h2{
+      font-size:24px;
+      margin-bottom: 10px;
+    }
+}

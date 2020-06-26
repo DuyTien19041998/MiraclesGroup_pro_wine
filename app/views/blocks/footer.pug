@@ -1,40 +1,45 @@
-//- .footer
-//-     .banner_footer.container
-//-         img(src="./images/banner_footer.png", alt="Banner footer")
-//-     .footer__menu.container
-//-         ul.menu__block
-//-             - var block1 = ["Thông tin","Về chúng tôi","Giao hàng","Cam nghĩ","Lưu trữ","Chích sách riêng tư"]
-//-                 - for(var i = 0 ; i < block1.length; i++)
-//-                    li.item  
-//-                     a(href="")= block1[i]
-//-         ul.menu__block
-//-             - var block1 = ["Mua hàng","Vận chuyển và trả hàng","Mua hàng ăn toàn","Vận quốc tế","Liên kết","Dịch vụ giảm giá"]
-//-                 - for(var i = 0 ; i < block1.length; i++)
-//-                    li.item  
-//-                     a(href="")= block1[i]
-//-         h2 Gửi Email
-//-             p Gửi mail cho chúng tôi để được hổ trợ 
-//-             input.intput_block3(type="text" placeholder="Enter your email....")
-//-             button.button_footer.fa.fa-search(type="submit" )
-//-             br
-//-             span.fab.fa-twitter 
-//-             span.fab.fa-google
-//-             span.fa.fa-wifi
-//-             span.fab.fa-instagram
-//-         h2 Liên hệ
-//-             span.fa.fa-map-marker Tâng 4 tòa nhà Hà Nội Group , số 442 Đội cấn phường cổ vị , Quận Ba Đình , Hà Nội
-//-             span.fa.fa-phone-square (04) 6680 2332 
-//-             span.fa.fa-phone-square (04) 6680 2332 
-//-             br
-//-             span.fa.fa-phone-square (04) 6680 2332 
-//-             span.material-icons 
-//-             i Support@gmail.com
-//-     .footer__contact.container
-//-         .footer__contact__copy
-//-              h4 @copyright 2008-2014 DKT Technology JSC
-//-         .footer__contact_icon
-//-             span.fab.fa-cc-mastercard
-//-             span.fab.fa-cc-visa
-//-             span.fab.fa-cc-paypal
-//-             span.fab.fa-paypal
+.footer
+    .banner_footer.container
+        img(src="./images/banner_footer.png", alt="Banner footer")
+    .footer__menu.container
+        ul.menu__block.col-12.col-md-2
+            h2 Thông Tin
+            - var block1 = ["VỀ CHÚNG TÔI","GIAO HÀNG","CAM KẾT","LƯU TRỮ","CHÍNH SÁCH RIÊNG TƯ"]
+                - for(var i = 0 ; i < block1.length; i++)
+                   li.item  
+                    a(href="")= block1[i]
+        ul.menu__block.col-12.col-md-2
+            h2 Mua Hàng
+            - var block1 = ["VẬN CHUYỂN VÀ TRẢ HÀNG","MUA HÀNG AN TOÀN","VẬN QUỐC TẾ","LIÊN KẾT"]
+                - for(var i = 0 ; i < block1.length; i++)
+                   li.item  
+                    a(href="")= block1[i]
+        .col-12.col-md-3.ba 
+            h2 Gửi Email
+            p Gửi mail cho chúng tôi để được hổ trợ 
+            input.intput_block3(type="text" placeholder="Enter your email....")
+            button.button_footer.fa.fa-search(type="submit" )
+            br
+            span.fab.fa-twitter.fb
+            span.fab.fa-google.fb
+            span.fa.fa-wifi.fb
+            span.fab.fa-instagram.fb
+        .col-12.col-md-5.ba 
+            h2  Liên hệ
+            span.fa.fa-map-marker Tâng 4 tòa nhà Hà Nội Group , số 442 Đội cấn phường cổ vị , Quận Ba Đình , Hà Nội
+            span.fa.fa-phone-square (04) 6680 2332 
+            span.fa.fa-phone-square (04) 6680 2332 
+            br
+            span.fa.fa-phone-square (04) 6680 2332 
+            span.material-icons 
+            i Support@gmail.com
+    hr
+    .footer__contact.container
+        .footer__contact__copy.col-12.col-md-9
+             h4 @Copyright 2008-2014 DKT Technology JSC
+        .footer__contact_icon.col-12.col-md-3
+            span.fab.fa-cc-mastercard.icon_end
+            span.fab.fa-cc-visa.icon_end
+            span.fab.fa-cc-paypal.icon_end
+            span.fab.fa-paypal.icon_end
                 

@@ -39,6 +39,43 @@
     .header .container__header .header__menu {
       width: 65%; }
 
+.footer {
+  margin-top: 50px; }
+  .footer__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 64px; }
+    .footer__menu li {
+      padding: 2px; }
+    .footer__menu .fb {
+      margin-top: 45px;
+      padding: 3px; }
+    .footer__menu a {
+      color: black;
+      font-size: 13px;
+      text-decoration: none; }
+  .footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2; }
+    .footer__contact .icon_end {
+      font-size: 30px;
+      padding: 4px; }
+  .footer i {
+    color: #e7b14f; }
+  .footer hr {
+    width: 100%;
+    height: 4px;
+    color: black;
+    margin: 38 15 0; }
+  .footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px; }
+
 /*!
  * Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
