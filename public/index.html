@@ -14,74 +14,99 @@
     <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body class="home-page">
     <div class="wrapper">
-      <div class="menu menu_sub">
-        <div class="container container__common">
-          <ul class="menu__common">
-            <li class="menu__common-item"> <a href="#">- Tài khoản của tôi</a></li>
-            <li class="menu__common-item"> <a href="#">- Trạng thái đơn hàng</a></li>
-            <li class="menu__common-item"> <a href="#">- Danh mục ưu thích</a></li>
-            <li class="menu__common-item"> <a href="#">- Đơn hàng</a></li>
-            <li class="menu__common-item"> <a href="#">- Đăng ký</a></li>
-            <li class="menu__common-item"> <a href="#">- Đăng nhập</a></li>
-            <div class="search">
-              <input class="input_search" type="text" placeholder="Tìm kiếm ở đây ">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </div>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light sub-menu">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-sub-menu">
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">Tài khoản của tôi</a></li>
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">- Trạng thái đơn hàng</a></li>
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">- Danh mục ưu thích</a></li>
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">- Đơn hàng</a></li>
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">- Đăng ký</a></li>
+              <li class="nav-item list-sub"><a class="nav-link text-dark nav-item__sub list-sub__a" href="#">- Đăng nhập</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 nav-sub-form">
+              <input class="nav-sub-form__input" type="text" placeholder="Tìm kiếm ở đây">
+              <button class="nav-sub-form__button" type="submit"><a class="nav-sub-form__button__a fa fa-search" href="#"></a></button>
+            </form>
+            <div class="node-sub"><i class="fa fa-bars node-sub__slide" aria-hidden="true"></i></div>
+          </div>
         </div>
-      </div>
-      <div class="header">
-        <div class="container container__header">
-          <div class="inner"><img src="../images/logo.png" alt="logo"></div>
-          <div class="menu header__menu">
-            <ul class="menu__common">
-              <li class="menu__common-item"> <a href="#">TRANG CHỦ</a></li>
-              <li class="menu__common-item"> <a href="#">RƯỢU VANG ĐỎ</a></li>
-              <li class="menu__common-item"> <a href="#"> VANG TRẮNG</a></li>
-              <li class="menu__common-item"> <a href="#"> THÔNG TIN</a></li>
-              <li class="menu__common-item"> <a href="#">BLOG</a></li>
-              <li class="menu__common-item"> <a href="#">LIÊN HỆ</a></li>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light main-menu">
+        <div class="container">
+          <div class="container__logo"><img src="./images/logo.png" alt="logo"></div>
+          <div class="container__main-menu collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-main-menu">
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">TRANG CHỦ</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">RƯỢU VANG ĐỎ</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">VANG TRẮNG</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">CHAMGANGE</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">THÔNG TIN</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">BLOG</a></li>
+              <li class="nav-item list"><a class="nav-link text-light nav-item__main" href="#">LIÊN HỆ</a></li>
             </ul>
           </div>
+          <div class="click-me"><i class="fa fa-bars" id="slide" aria-hidden="true"></i></div>
         </div>
-      </div>
+      </nav>
       <div class="footer">
-        <div class="banner_footer container"><img src="./images/banner_footer.png" alt="Banner footer"></div>
-        <div class="footer__menu container">
-          <ul class="menu__block col-12 col-md-2">
-            <h2>Thông Tin</h2>
-            <li class="item"> <a href="">VỀ CHÚNG TÔI</a></li>
-            <li class="item"> <a href="">GIAO HÀNG</a></li>
-            <li class="item"> <a href="">CAM KẾT</a></li>
-            <li class="item"> <a href="">LƯU TRỮ</a></li>
-            <li class="item"> <a href="">CHÍNH SÁCH RIÊNG TƯ</a></li>
-          </ul>
-          <ul class="menu__block col-12 col-md-2">
-            <h2>Mua Hàng</h2>
-            <li class="item"> <a href="">VẬN CHUYỂN VÀ TRẢ HÀNG</a></li>
-            <li class="item"> <a href="">MUA HÀNG AN TOÀN</a></li>
-            <li class="item"> <a href="">VẬN QUỐC TẾ</a></li>
-            <li class="item"> <a href="">LIÊN KẾT</a></li>
-          </ul>
-          <div class="col-12 col-md-3 ba"> 
-            <h2>Gửi Email</h2>
-            <p>Gửi mail cho chúng tôi để được hổ trợ </p>
-            <input class="intput_block3" type="text" placeholder="Enter your email....">
-            <button class="button_footer fa fa-search" type="submit"></button><br><span class="fab fa-twitter fb"></span><span class="fab fa-google fb"></span><span class="fa fa-wifi fb"></span><span class="fab fa-instagram fb"></span>
-          </div>
-          <div class="col-12 col-md-5 ba"> 
-            <h2> Liên hệ</h2><span class="fa fa-map-marker">Tâng 4 tòa nhà Hà Nội Group , số 442 Đội cấn phường cổ vị , Quận Ba Đình , Hà Nội</span><span class="fa fa-phone-square">(04) 6680 2332 </span><span class="fa fa-phone-square">(04) 6680 2332 </span><br><span class="fa fa-phone-square">(04) 6680 2332 </span><span class="material-icons"> </span><i>Support@gmail.com</i>
+        <div class="footer__baner">
+          <div class="container">
+            <div class="container__banner"><img class="img_banner" src="./images/banner_footer.png" alt="banner footer"></div>
           </div>
         </div>
-        <hr>
-        <div class="footer__contact container">
-          <div class="footer__contact__copy col-12 col-md-9">
-            <h4>@Copyright 2008-2014 DKT Technology JSC</h4>
+        <div class="footer__nav">
+          <div class="container">
+            <div class="row">
+              <ul class="container__block1 col-12 col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                <h2>THÔNG TIN</h2>
+                <li class="item"> <a href="#">VỀ CHÚNG TÔI</a></li>
+                <li class="item"> <a href="#">GIAO HÀNG</a></li>
+                <li class="item"> <a href="#">CAM KẾT</a></li>
+                <li class="item"> <a href="#">LƯU TRỮ</a></li>
+                <li class="item"> <a href="#">CHÍNH SÁCH RIÊNG TƯ</a></li>
+              </ul>
+              <ul class="container__block2 col-12 col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                <h2>MUA HÀNG</h2>
+                <li class="item"> <a href="#">VẬN CHUYỂN TRẢ HÀNG</a></li>
+                <li class="item"> <a href="#">MUA HÀNG AN TOÀN</a></li>
+                <li class="item"> <a href="#">VẬN QUỐC TẾ</a></li>
+                <li class="item"> <a href="#">LIÊN KẾT</a></li>
+                <li class="item"> <a href="#">DỊCH VỤ GIẢM GIÁ</a></li>
+              </ul>
+              <div class="container__block3 col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                <h2>GỬI EMAIL</h2>
+                <p>Gửi mail cho chúng tôi để được hổ trợ </p>
+                <form class="form-inline my-2 my-lg-0 form-block3">
+                  <input class="form-block3__input" type="text" placeholder="Enter your email.."><img class="send" src="./images/send.png" alt="send">
+                </form><br>
+                <div class="icon"><span class="fab fa-twitter icon__fb"></span><span class="fab fa-google-plus-g icon__fb"></span><span class="fas fa-globe icon__fb"></span><span class="fab fa-linkedin-in icon__fb"> </span><span class="fa fa-wifi icon__fb"></span></div>
+              </div>
+              <div class="container__block4 col-xs-12 col-sm-12 col-md-12 col-lg-5">
+                <h2> LIÊN HỆ</h2><img class="block4-span" src="./images/location.png" alt="icon marker"><span>&nbsp; Tầng 4 tòa nhà Hà Nội Group , số 442 Đội Cấn <br>&nbsp;&nbsp;&nbsp;&nbsp; P Cống Vị , Quận Ba Đình , Hà Nội</span><br><img class="block4-span block4-span-2" src="./images/fax.png" alt="fax"><span>&nbsp;&nbsp;(04) 6680 2332 - &nbsp;</span><img class="block4-span block4-span-2" src="./images/fax.png" alt="fax"><span>&nbsp;&nbsp;(04) 6680 2332 </span><br><img class="block4-span" src="./images/fax.png" alt="fax"><span>&nbsp;&nbsp;(04) 6680 2332 &nbsp;</span><span class="fas fa-envelope"></span><i class="block4-span">&nbsp; Support@gmail.com</i>
+              </div>
+            </div>
+            <hr>
           </div>
-          <div class="footer__contact_icon col-12 col-md-3"><span class="fab fa-cc-mastercard icon_end"></span><span class="fab fa-cc-visa icon_end"></span><span class="fab fa-cc-paypal icon_end"></span><span class="fab fa-paypal icon_end"></span></div>
+        </div>
+        <div class="footer__contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-7 col-sm-7 col-md-8 col-lg-9">
+                <div class="footer__contact__copy">
+                  <h4>&#169;Copyright 2008-2014 DKT Technology JSC</h4>
+                </div>
+              </div>
+              <div class="col-xs-5 col-sm-5 col-md-4 col-lg-3">
+                <div class="footer__contact__icon"><i class="fab fa-cc-mastercard icon_end"></i><i class="fab fa-cc-visa icon_end"></i><i class="fab fa-cc-paypal icon_end"></i><i class="fab fa-cc-mastercard icon_end"></i></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
