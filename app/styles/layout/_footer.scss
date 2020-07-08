@@ -1,0 +1,154 @@
+
+.footer{
+    font-family: $font-time-new-roman;
+    h2{
+       font-size: $font-size-18;
+       color:$color-h2;
+    }
+    .span{
+       font-size:$font-size-12;
+    }
+
+    &__banner{
+        text-align: center;
+    }
+
+    &__nav{
+        margin-top:61px;
+        font-family:$font-time-new-roman ;
+        .container__banner{
+            margin-left: 20px;
+        }
+        .container{
+            font-size:$font-size-12;
+
+            a{
+                text-decoration:$text-decoration-none;
+                color:$color-a;
+            }
+
+            p{
+                color:$color-a;
+            }
+ 
+            &__block3{
+                .icon{
+                    margin-top: -20px !important;
+
+                    &__fb{
+                        margin: 15px 6px 0 6px; ;
+                    }
+                    
+                    &__fb:hover{
+                        color:$color-i;
+                    }
+
+                    &__wifi{
+                        margin-top: -3px;
+                        margin-left: 5px;
+                        color:$color-black !important;
+                    }
+
+                    &__wifi:hover{
+                        color:$color-i !important;
+                    }
+                }
+
+                .form-block3__input{
+                    font-style: $font-style-italic;
+                    border: 1px solid $color-black;
+                    padding: 3px 3px 3px 7px;       
+                }
+
+                .form-block3__input:hover{
+                    outline:none;
+                    border: 1px solid $color-black;
+                }
+
+                .form-block3__button{
+                    background-color:$color-black;
+                    border:1px solid $color-black;
+                    padding: 3px 0 3px 7px;
+
+                    &__a{
+                    color:$color-white;
+                    margin-right: 40px;
+                    text-align: center;
+                    margin-left: 20px;
+                    }
+                }
+
+                .send{
+                    height: 26px;
+                }
+            }
+            &__block4{
+
+                i{
+                    font-style: $font-style-italic;
+                    color: $color-i;
+                }
+                .block4-span{
+                    margin-bottom: 8px;
+                }
+                .block4-span-2{
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+    &__contact{
+
+        hr{
+            width: $width-100;
+            height: 2px;
+            color:$color-a;
+        }
+
+        h4{
+            font-family:$font-myriad-pro;
+            font-size: $font-size-12;
+            color:$color-a;
+            font-weight: normal;
+        }
+
+        .icon_end{
+            margin: 0 9px;
+            font-size: $font-size-20;
+            background-color:$color-white;
+        }
+    }
+ }
+ @media only screen and (min-width:$px-1200){
+    .footer{
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width:$px-992) and (max-width:$px-1200){
+    .footer{
+
+        &__nav{
+            .container__block3{
+
+                .form-block3{
+
+                    &__input{
+                        padding: 3px 0;
+                        width: 140px;
+                    }
+
+                    .send{
+                        margin: 1px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:$px-1200){
+    .icon{
+        margin-bottom: 16px;
+    }
+}
+
+ 
